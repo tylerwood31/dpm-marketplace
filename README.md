@@ -25,7 +25,7 @@ Needs Claude Code, which needs a paid Claude plan (Pro or above). The free plan 
 
 **context7** is free and needs no account. It pulls real, current library documentation so Claude stops inventing functions that don't exist. If you install nothing else, install this.
 
-**apify** is optional and paid, for scraping Reddit and marketplaces at volume. You don't need it to start.
+**apify** scrapes Reddit and marketplaces at volume, for when reading threads by hand gets old. The free tier is $5 of credit a month with no card required, which covers several deep research runs. It will say "needs authentication" until you connect it. That is normal and nothing is broken.
 
 ## Where this came from
 
