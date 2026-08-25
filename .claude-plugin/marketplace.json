@@ -1,0 +1,16 @@
+{
+  "name": "dpm",
+  "owner": { "name": "Tyler Wood", "url": "https://thedigitalproductmachine.com" },
+  "metadata": {
+    "description": "The Digital Product Machine: the working set for building and selling a one-person digital product business with Claude Code.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "dpm",
+      "source": "./plugins/dpm",
+      "description": "Skills and MCP servers for the DPM build: find the crowd, shape the offer, keep the ads compliant, and write in your own voice.",
+      "version": "0.1.0"
+    }
+  ]
+}

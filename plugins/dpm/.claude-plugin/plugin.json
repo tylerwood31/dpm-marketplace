@@ -1,0 +1,10 @@
+{
+  "name": "dpm",
+  "displayName": "The Digital Product Machine",
+  "description": "The working set for building and selling a one-person digital product business with Claude Code.",
+  "author": { "name": "Tyler Wood", "url": "https://thedigitalproductmachine.com" },
+  "homepage": "https://thedigitalproductmachine.com",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": ["digital-products", "offers", "meta-ads", "copywriting"],
+  "skills": "./skills/"
+}
