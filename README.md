@@ -15,7 +15,7 @@ Needs Claude Code, which needs a paid Claude plan (Pro or above). The free plan 
 
 ## What you get
 
-**dpm-niche-research** takes a niche you're considering and runs four research tracks on it at once, so you find out whether the crowd is real, what they're angry about, whether there's actually a product in it, and whether anyone's already selling to them. Every claim comes back with a source, and anything it couldn't verify gets quarantined so it never ends up in an ad.
+**dpm-niche-research** starts as a conversation. You bring interests, it works them into a specific crowd with a specific problem, then runs four research tracks on that at once, so you find out whether the crowd is real, what they're angry about, whether there's actually a product in it, and whether anyone's already selling to them. Every claim comes back with a source, and anything it couldn't verify gets quarantined so it never ends up in an ad.
 
 **dpm-crowd-check** scores a niche against eight conditions and refuses to score one you haven't actually researched. Guessing at this is the reason most people build things nobody buys.
 

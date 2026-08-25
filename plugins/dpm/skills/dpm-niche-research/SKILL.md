@@ -1,23 +1,43 @@
 ---
 name: dpm-niche-research
-description: Use when the user has a candidate niche or crowd and wants it researched before building anything. Runs four parallel research tracks, enforces source discipline, and produces an evidence file that dpm-crowd-check can score. Refuses to invent a niche out of nothing.
+description: Use when picking or researching a niche for a digital product, including when the user only has vague interests. Reframes an interest into a specific crowd through conversation, then runs four parallel research tracks and produces a sourced evidence file that dpm-crowd-check can score. Refuses to invent a niche out of nothing.
 ---
 
 # Niche research
 
 Four research tracks, run in parallel, against **one candidate crowd at a time**. Output is an evidence file with a URL on every claim. That file is what `dpm-crowd-check` scores, and later, what ad copy is allowed to draw from.
 
-## First: you cannot generate the candidate
+## Start with a conversation, not a form
 
-If the user says "find me a starving crowd" with nothing attached, do not produce a list. A model asked to invent niches returns the same plausible, saturated, unverifiable set every time (meal prep, notion templates, dog training), and building on that is how people waste a month.
+Most people arrive with interests, not crowds. "I like hiking." "I've done a lot of home renovation." "I'm into personal finance." None of those are crowds, and none of them can be researched as written. The work at this stage is reframing, and it is a conversation, so hold it like one. **Ask one question at a time and react to the answer.** Do not send a numbered list of questions and wait. That turns a useful ten-minute talk into homework nobody finishes.
 
-Push back once, and ask for one of these instead:
+If they arrive with nothing at all, do not generate niches for them. A model asked to invent a starving crowd returns the same plausible, saturated, unverifiable set every time, and none of it can be checked. Ask instead for one of three things:
 
-1. **Something they saw.** A flyer, a sign, an argument at work, a subreddit that will not stop growing, a problem a friend keeps complaining about. Physical-world observation beats anything a model produces, because it is evidence nobody else has read yet.
-2. **Something they already know.** A hobby, a job, a thing they have already solved for themselves.
-3. **A trend they noticed but do not understand.** This one is often the best. Not understanding it is fine, the research fixes that.
+1. **Something they saw.** A flyer, a sign, an argument at work, a subreddit that keeps growing, a problem a friend will not stop complaining about. Physical-world observation beats anything a model produces, because nobody else has read it yet.
+2. **Something they already know.** A hobby, a job, a thing they solved for themselves once.
+3. **A trend they noticed and do not understand.** Often the best one. Not understanding it is fine, that is what the research is for.
 
-Then take that candidate and run everything below on it. The model's job is to kill or confirm a candidate, not to dream one up.
+### Turning an interest into a crowd
+
+An interest is a doorway, not a crowd. You stand inside it and look for the specific person who is stuck. Work toward three things, in this order:
+
+**Who, specifically, and what do they call themselves.** "People interested in hiking" is not a crowd. "People who just adopted a rescue dog that pulls" is. Push for a name they would use for themselves, because that name is what you will search for later.
+
+**What just happened to them.** Almost every real crowd is defined by a recent event, not a standing interest. A diagnosis, a move, a baby, a layoff, a purchase they now regret, a season with a date on it. The event is what creates urgency, and urgency is the difference between someone who reads and someone who buys. If you cannot name the event, keep digging, you are still describing a topic.
+
+**What they have already tried and paid for.** If the answer is nothing, that is a warning. People who have never spent money on a problem usually do not start with you.
+
+Offer reframes, do not just interrogate. If somebody says "personal finance," it is more useful to say "so is it people who just got their first real salary and have no idea what to do with it, or people staring down a mortgage renewal at a rate that doubled?" and let them pick, than to ask them to narrow it themselves. Two or three concrete reframes will move them further in a minute than five open questions.
+
+Then say plainly which reframe you would research and why, and let them overrule you. They know things about the crowd that you do not.
+
+### Before you spend the research
+
+Read the candidate back in one sentence, in this shape:
+
+> **[who they are], who just [the event], and are currently [what they are doing about it badly].**
+
+If that sentence is hard to write, the candidate is not ready and no amount of research will fix it. If they have three candidates, write three sentences and research all three. Expect at least one to die, and say so up front, because a person who expects a candidate to fail keeps going when one does.
 
 ## The four tracks
 
