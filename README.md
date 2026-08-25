@@ -13,6 +13,16 @@ That's it. Two commands, and it installs four skills plus the MCP servers they r
 
 Needs Claude Code, which needs a paid Claude plan (Pro or above). The free plan does not include it.
 
+## Where to start
+
+Once it's installed, type this and hit enter:
+
+```
+/dpm:find-niche
+```
+
+It asks what you've got, works it into a specific group of people with a specific problem, and then goes and finds out whether that group is real. You don't need an idea ready. It'll ask.
+
 ## What you get
 
 **dpm-niche-research** starts as a conversation. You bring interests, it works them into a specific crowd with a specific problem, then runs four research tracks on that at once, so you find out whether the crowd is real, what they're angry about, whether there's actually a product in it, and whether anyone's already selling to them. Every claim comes back with a source, and anything it couldn't verify gets quarantined so it never ends up in an ad.
