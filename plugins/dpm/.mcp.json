@@ -3,13 +3,16 @@
     "context7": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp"],
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ],
       "note": "Pulls real, current library documentation so Claude stops inventing APIs that do not exist. Free, no account."
     },
     "apify": {
       "type": "http",
       "url": "https://mcp.apify.com",
-      "note": "Optional, paid. Reddit and marketplace scraping at volume for demand research. The free methods in Module 3 cover the same ground until you have revenue."
+      "note": "Reddit and marketplace scraping at volume for demand research. Free tier is $5 of credit a month, no card required. Reports 'needs authentication' until you connect it."
     }
   }
 }
