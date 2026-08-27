@@ -39,6 +39,23 @@ Read the candidate back in one sentence, in this shape:
 
 If that sentence is hard to write, the candidate is not ready and no amount of research will fix it. If they have three candidates, write three sentences and research all three. Expect at least one to die, and say so up front, because a person who expects a candidate to fail keeps going when one does.
 
+## Hard limits on how you research
+
+These are not preferences. Breaking them either costs the person money or leaves them watching something they cannot reproduce.
+
+**Web search and reading pages only. Never drive a browser.** Do not use browser automation, a browser extension, or any tool that takes control of Chrome. Most people running this have no such tool connected, so a research run that depends on one cannot be repeated by the person watching. Plain search and page reads are the whole toolkit.
+
+**Never work around a block.** Etsy, Facebook and others sit behind CAPTCHAs and bot protection. When a source blocks you, that is the end of that source. Do not try to bypass it, do not hunt for another route in, and do not ask the person to fetch it for you. Write `could not verify, source blocked` and move on. A gap recorded honestly costs nothing, and four tracks still come back with plenty.
+
+**Stay inside the free Apify tier, which is $5 a month.** The course tells people this step is free and that promise has to hold. So:
+
+- Do not touch Apify during the four tracks. Nothing in them needs it.
+- Use it only when the person explicitly asks to go deeper on Track 2, after the four tracks are in, and only to pull one subreddit at volume.
+- One run per candidate at most. Say what it will cost and get a yes before running it.
+- Never run an actor speculatively, never run one to see what comes back, and never run several at once.
+
+If Apify is not connected or its credits are gone, the research still runs. It reads fewer threads on the sentiment track. Say that plainly rather than stopping.
+
 ## The four tracks
 
 Launch all four as parallel subagents. Each is independent and each returns a self-contained markdown report. Substitute the crowd, the problem, and the product shape being tested.
@@ -65,8 +82,12 @@ Compile everything into one dated file, `research/RESEARCH-<date>.md`, with the 
 
 The pool has two lists: claims with a live source URL that copy may use, and a **quarantine list** of everything marked `[single-source]` or `[contested]`. Quarantined claims may inform your thinking. They may never appear in an ad, a sales page, or the product. Write that rule into the file itself, because the person writing copy in three weeks will not remember it.
 
-## Then score it
+## Then score it, without being asked
 
-Hand the evidence file to `dpm-crowd-check` and score the candidate against the 8 conditions. The score is only as good as this file. A candidate scored from impressions instead of sources is a guess wearing a number.
+Scoring is the last step of this skill, not a separate request. The moment the evidence file is written, hand it to `dpm-crowd-check` and score the candidate against the 8 conditions. Do not stop and wait to be prompted, and do not ask whether they want it scored. They ran this to find out whether the crowd is worth building for, and an unscored evidence file does not answer that.
+
+Say the total and the verdict in plain words, then the conditions that scored lowest and what would have to be true to move them.
+
+The score is only as good as the file underneath it. A candidate scored from impressions instead of sources is a guess wearing a number.
 
 Research three candidates before committing to one. Expect at least one to fail. A track that comes back thin is a result, not a setback.
